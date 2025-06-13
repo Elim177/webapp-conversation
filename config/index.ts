@@ -4,13 +4,13 @@ export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
   title: 'EOC Agent',
-  description: '',
-  copyright: 'ADERSIM + EXINES 2025',
+  description: 'Decision Helper in an EOC environment',
+  copyright: 'ADERSIM + EXINES',
   privacy_policy: '',
   default_language: 'en',
 }
 
-export const isShowPrompt = false
+export const isShowPrompt = true
 export const promptTemplate = 'You are an EOC Agent.'
 
 export const API_PREFIX = '/api'
